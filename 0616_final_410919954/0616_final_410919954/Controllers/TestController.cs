@@ -13,7 +13,7 @@ namespace _0616_final_410919954.Controllers
         {
             return View();
         }
-        public ActionResult Exam()
+        public ActionResult Eaxm()
         {
             return View();
         }
