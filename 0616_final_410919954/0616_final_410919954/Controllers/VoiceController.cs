@@ -9,7 +9,13 @@ namespace _0616_final_410919954.Controllers
 {
     public class VoiceController : Controller
     {
-        [HttpPost]
+        public ActionResult Serach()
+        { 
+            return View();
+        }
+
+
+            [HttpPost]
         public ActionResult  Serach  (string name, string num)
         {
             if (name.IsNullOrWhiteSpace())
